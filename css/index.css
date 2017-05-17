@@ -1,0 +1,263 @@
+/* =========== General =========== */
+* {
+	margin:0;
+	padding:0;
+}
+
+body  {
+	background-image: url(../imagenes/fondo.jpg);
+	background-size:100%;
+	float:left;
+}
+
+.main {
+	width:90%;
+	max-width: 1500px;
+	float:left;
+}
+.main .left_menu {
+	width:294px;
+	float:left;
+	background:url(../imagenes/article_main.jpg);
+}
+
+/* =========== Navegador top =========== */
+header {
+	width:1000px;
+	margin-left:450px;
+}
+
+header nav {
+	overflow:hidden;
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	font-family:MuseoSlab;
+	font-size:20px;
+	color:#8ADEFE;
+	background:url(../imagenes/menu_item_left_bg.png) no-repeat left top, url(../imagenes/menu_item_right_bg.png) no-repeat right top;
+	padding:20px 20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li a:hover {
+	background:#151F93;
+}
+
+/* =========== Logotipo =========== */
+.logotipo {
+	margin-top:155px;
+	margin-left:20px;
+	height:160px;
+}
+
+/* ========= Banner =========== */
+.banner {
+	width:860px;
+	height:220px;
+	border:10px solid black;
+	margin-top:1px;
+	margin-right:148px;
+	box-sizing:border-box;
+	background-size:100% 100%;
+	animation: banner 15s infinite;
+	float:right;
+}
+
+@keyframes banner {
+	0%, 30% {
+		background-image: url(../imagenes/banner/1.jpg);
+	}
+	35%, 65% {
+		background-image: url(../imagenes/banner/2.jpg);
+	}
+	70%, 100% {
+		background-image: url(../imagenes/banner/3.jpg);
+	}
+}
+
+/* ========= Hojas de Silvanas =========== */
+.hand {
+	position:absolute;
+	height:77px;
+	width:177px;
+	margin-left:390px;
+	margin-top:-7px;
+	z-index:6;
+	background:url(../imagenes/hand.png) no-repeat;
+	float:left;
+}
+
+.hand2 {
+	position:absolute;
+	height:77px;
+	width:177px;
+	margin-left:442px;
+	margin-top:-4px;
+	z-index:6;
+	background:url(../imagenes/hand2.png) no-repeat;
+	float:left;
+}
+
+.hand3 {
+	
+	position:absolute;
+	height:92px;
+	width:40px;
+	margin-left:831px;
+	margin-top:-4px;
+	z-index:6;
+	background:url(../imagenes/hand3.png) no-repeat;
+	float:left;
+}
+
+.hand4 {
+	position:absolute;
+	height:90px;
+	width:90px;
+	margin-left:877px;
+	margin-top:-0px;
+	z-index:6;
+	background:url(../imagenes/hand4.png) no-repeat;
+	float:left;
+}
+
+/* =========== Navegador Izquierdo=========== */
+.menu nav ul li a {
+	font-family:MuseoSlab;
+	font-size:20px;
+	color:#8ADEFE;
+	
+	background:url(../imagenes/menu.png) no-repeat;
+	padding:22px 22px;
+	display:block;
+	text-decoration:none;
+}
+
+.menu nav ul li a:hover {
+	background:#151F93;
+}
+
+/* =========== Zona Usuario=========== */
+.top {
+	background:url(../imagenes/menu.png) no-repeat;
+	font-family:MuseoSlab;
+	font-size:28px;
+	color:#00FF00;
+	text-align:Center;
+	padding:15px 15px;
+	display:block;
+}
+
+.Zona_usuario form {
+	text-align:center;
+	padding:15px 15px;
+	display:block;
+}
+
+.Zona_usuario form input{
+	padding:15px 15px;
+	display:block;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Zona_usuario  form h5 {
+	font-size:20px;
+	color:#fff;
+}
+
+.Zona_usuario  form a {
+	font-size:16px;
+	color:#F51B1B;
+	text-decoration:none;
+}
+
+/* =========== Estado Servidor=========== */
+.mid {
+	background:url(../imagenes/menu.png) no-repeat;
+	font-family:MuseoSlab;
+	font-size:28px;
+	color:#00FF00;
+	text-align:Center;
+	padding:15px 15px;
+	display:block;
+}
+
+/*Ratios del Servidor*/
+.left{
+	background:url(../imagenes/menu.png) no-repeat;
+	font-family:MuseoSlab;
+	font-size:28px;
+	color:#00FF00;
+	text-align:Center;
+	padding:15px 15px;
+	display:block;
+}
+
+.ratios ul li{
+	text-align:center;
+	font-family:MuseoSlab;
+	font-size:18px;
+	color:#00FF00;
+	padding:10px 10px;
+	display:block;
+	text-decoration:none;
+}
+
+
+
+/* =========== Post Centrales =========== */
+.articles {
+	width:860px;
+	margin-left:298px;
+	margin-top:208px;
+	box-sizing:border-box;
+}
+
+.articles article {
+	background:url(../imagenes/article_main.jpg);
+	padding:20px;
+	margin-bottom:20px;
+}
+
+.articles article h1{
+	background:url(../imagenes/menu.png) no-repeat;
+	font-family:MuseoSlab;
+	font-size:22px;
+	color:#00FF00;
+	text-align:Center;
+	padding:20px 20px;
+	display:block;
+	text-decoration:none;
+	
+}
+	
+.articles article p {
+	font-family:MuseoSlab;
+	font-size:20px;
+	color:#85C1E9;
+	padding:20px 20px;
+	display:block;
+	text-decoration:none;
+	
+}
+
+/* =========== Copyright =========== */
+footer {
+	width:100%;
+	background:#000;
+	color:#fff;
+	clear:both;
+	padding:20px 10px;
+}
