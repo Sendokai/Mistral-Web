@@ -1,0 +1,132 @@
+﻿@charset "utf-8";
+
+/*========== Config. General ===========*/
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+body {
+	font-family:MuseoSans, Arial, Helvetica, Sans-seif;
+	font-size:18px;
+	text-shadow:1px 1px 0px #000;
+	background:#000;
+	background-image:url(../imagenes/background.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 90px;
+}
+
+/*========== Config. Menu ===========*/
+header nav {
+	background-image:url(../imagenes/menu_index.png);
+}
+
+header nav ul {
+	list-style:none;
+	overflow:hidden;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	padding:24px 24px;
+	display:block;
+	font-family:MuseoSlab;
+	font-size:20px;
+	color:#fff;
+	text-shadow:0 0 4px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.3);
+	text-decoration:none;
+	position:relative;
+	z-index:2;
+	transition:all 400ms; -webkit-transition:all 400ms; -moz-transition:all 400ms; -ms-transition:all 400ms; -o-transition:all 400ms;
+	background:url(../imagenes/menu_item_left_bg.png) no-repeat left top, url(../imagenes/menu_item_right_bg.png) no-repeat right top;
+	transition:all 600ms; -webkit-transition:all 600ms; -moz-transition:all 600ms; -ms-transition:all 600ms; -o-transition:all 600ms;
+}
+
+header nav ul li a:hover {
+	text-shadow: 1px 0px 1px #000;
+	cursor: pointer;
+	color:#4DACF1;
+	background-color:rgba(20,26,30,0.3);
+}
+
+/*========== Config. Logo ===========*/
+.logotipo {
+	margin-top:-30px;
+	margin-left:500px;
+}
+
+/*========== Config. Login ===========*/
+
+.login {
+	width:450px;
+	margin-top:-28px;
+	margin-left:560px;	
+}
+
+.login h1 {
+	padding:10px 20px;
+	display:block;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+}
+.login form {
+	border:3px solid blue;
+	background-image:url(../imagenes/fondo_texto.png);
+	padding:10px 10px;
+	display:block;
+	
+}
+
+.login form input {
+	margin:15px auto;
+	padding:10px 10px;
+	display:block;
+	text-align:center;
+	font-size:18px;
+}
+.submit{
+	border:1px solid black;
+	border-radius:10%;
+	background-image:url(../imagenes/menu_index.png);
+	background-position:center;
+	color:#fff;
+}
+
+.submit:hover, .login form a:hover{
+	color:#4DACF1;
+	box-shadow: 0px 0px 3px #fff;
+	-moz-box-shadow: 0px 0px 3px #fff;
+	-webkit-box-shadow: 0px 0px 3px #fff;
+	
+}
+.submit:active {
+	transform: scale(.95);
+}
+
+.login form a {
+	margin:auto;
+	width:60%;
+	padding:3px 15px;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color: #fff;
+	
+}
+/*========== Config. footer ===========*/
+footer {
+	padding:28px 20px;
+	display:block;
+	margin-top:12px;
+	background-image:url(../imagenes/menu_index.png);
+	font-size:16px;
+	text-align:center;
+	color:#BCCBD4;
+}	
+
+
